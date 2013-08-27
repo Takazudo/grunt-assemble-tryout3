@@ -2,6 +2,8 @@ module.exports = (grunt) ->
   grunt.task.loadNpmTasks 'assemble'
   grunt.initConfig
     assemble:
+      options:
+        partials: 'partials/*.hbs'
       pages:
         options:
           data: ['config.yml']

@@ -1,1 +1,6 @@
 name: Takazudo
+products:
+  - name: gyudon
+    price: 200
+  - name: katsudon
+    price: 300
